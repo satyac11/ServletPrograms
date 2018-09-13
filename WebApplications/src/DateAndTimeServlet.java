@@ -27,8 +27,8 @@ public class DateAndTimeServlet extends GenericServlet {
 		PrintWriter pw = res.getWriter();
 		Date date = new Date();
 		pw.println("Current Date is: "+date.toString());
-		pw.println("\n Request class name:"+req.getClass());
-		pw.println("\n Response Class name: "+res.getClass());
+		pw.println("<br>Request class name:"+req.getClass());
+		pw.println("<br>Response Class name: "+res.getClass());
 		pw.close();
 	}
 	
