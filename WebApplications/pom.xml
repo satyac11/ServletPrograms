@@ -23,4 +23,12 @@
       </plugin>
     </plugins>
   </build>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.tomcat</groupId>
+  		<artifactId>tomcat-servlet-api</artifactId>
+  		<version>9.0.10</version>
+  	</dependency>
+  </dependencies>
 </project>
